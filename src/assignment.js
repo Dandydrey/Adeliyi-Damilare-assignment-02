@@ -32,16 +32,20 @@ assignment.sumOfNumbers = sumOfNumbers;
  *@param {Array} arrayOfNumbers the array containing even or non-even numbers
  * @returns number the count of even numbers
  */
-function countEvenNumbers(arrayOfNumbers) {
-  let count = 0;
-  for(let i = 0; i < arrayOfNumbers.lenght; i++){
-    if(arrayOfNumbers[i] % 2 == 0){
-      count++;
+function 
+  countEvenNumbers(arrayOfNumbers) {
+  count= 0;
+  for (let i = 0; i <= arrayOfNumbers.length; i++){
+    if (arrayOfNumbers[i] % 2 == 0) {
+count+=1;
     }
-}
+    }
+
 return count;
 }
- assignment.countEvenNumbers = countEvenNumbers;
+ assignment.countEvenNumbers = countEvenNumbers
+
+
 
 /**
  * Challenge - 3
@@ -68,3 +72,4 @@ function celsiusToFahrenheit(arrayOfNumbers) {
 module.exports = assignment;
 // ========================
 
+;
